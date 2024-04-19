@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Projects = () => {
@@ -10,35 +11,36 @@ const Projects = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mt-14'>
 
-                <div className=' md:mx-10 md:mb-10'>
-                    <img className='w-full' src="https://separateweb.com/niwax-template/images/portfolio/image-9.jpg" alt="" />
+                <div className=' md:mx-10 md:mb-10 group'>
+                    <div className='relative'>
+                        <div className='group-hover:bg-trans h-full w-full absolute flex justify-center items-center'>
+                            <Link href="https://my-portfolio-ashen-seven-27.vercel.app/" className='text-2xl opacity-0 group-hover:opacity-100 border-b-2 border-black font-semibold'>Link</Link>
+                        </div>
+                        <img className='w-full' src="https://separateweb.com/niwax-template/images/portfolio/image-9.jpg" alt="" />
+                    </div>
                     <h1 className='text-2xl dark:text-gray-300 mt-5 font-semibold '>Portfolio Website</h1>
                     <h5 className='text-xl mt-3 text-slate-500 dark:text-gray-400'>Web Design</h5>
                 </div>
-                {/* <div className='relative md:mx-10 md:mb-10'>
-                    <div className=' absolute w-full h-full flex flex-col justify-center items-center left-0 bg-blue-200 trasnition duration-500 ease-out hover:'>
-                        <h1 className='text-2xl dark:text-gray-300 mt-5 font-semibold '>Portfolio Website</h1>
-                        <h5 className='text-xl mt-3 text-slate-500 dark:text-gray-400'>Web Design</h5>
-                    </div>
-                    <img className='w-full' src="https://separateweb.com/niwax-template/images/portfolio/image-9.jpg" alt="" />
-                </div> */}
 
-                {/* <div className='md:mx-10 md:mb-10 relative overflow-hidden '>
-                    <img className='w-full transition duration-500 ease-in-out transform hover:translate-x-2 hover:translate-y-2' src="https://separateweb.com/niwax-template/images/portfolio/image-9.jpg" alt="" />
-                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center transition-opacity duration-500 ease-in-out opacity-0 hover:opacity-100">
-                        <h1 className='text-2xl mt-5 font-semibold '>Portfolio Website</h1>
-                        <h5 className='text-xl mt-3 text-slate-500'>Web Design</h5>
-                    </div>
-                </div> */}
 
-                <div className='mt-12 md:mt-0 md:mx-10'>
-                    <img className='w-full' src="https://separateweb.com/niwax-template/images/portfolio/image-3.jpg" alt="" />
+                <div className='mt-12 md:mt-0 md:mx-10 group'>
+                    <div className='relative'>
+                        <div className='group-hover:bg-trans h-full w-full absolute flex justify-center items-center'>
+                            <Link href="" className='text-2xl opacity-0 group-hover:opacity-100 border-b-2 border-black font-semibold'>Link</Link>
+                        </div>
+                        <img className='w-full' src="https://separateweb.com/niwax-template/images/portfolio/image-3.jpg" alt="" />
+                    </div>
                     <h1 className='text-2xl dark:text-gray-300  mt-5 font-semibold '>Ecommerce Development</h1>
                     <p className='text-xl mt-3 text-slate-500 dark:text-gray-400'>Web Application</p>
                 </div>
 
-                <div className='mt-12 md:mt-0 md:mx-10 md:mb-10 '>
-                    <img className='w-full' src="https://separateweb.com/niwax-template/images/portfolio/image-8.jpg" alt="" />
+                <div className='mt-12 md:mt-0 md:mx-10 md:mb-10 group'>
+                    <div className='relative'>
+                        <div className='group-hover:bg-trans h-full w-full absolute flex justify-center items-center'>
+                            <Link href="" className='text-2xl opacity-0 group-hover:opacity-100 border-b-2 border-black font-semibold'>Link</Link>
+                        </div>
+                        <img className='w-full' src="https://separateweb.com/niwax-template/images/portfolio/image-8.jpg" alt="" />
+                    </div>
                     <h1 className='text-2xl dark:text-gray-300 mt-5 font-semibold '>Restaurant Website</h1>
                     <p className='text-xl mt-3 text-slate-500 dark:text-gray-400'>Web App</p>
                 </div>

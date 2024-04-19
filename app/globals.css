@@ -44,6 +44,10 @@ body {
     left: 0;
   }
 
+  .bg-trans {
+    background-color: rgba(240, 248, 255, 0.479);
+  }
+
 
 
 

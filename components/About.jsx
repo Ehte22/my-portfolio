@@ -32,7 +32,7 @@ const About = () => {
                     </div>
 
                     <div className='mt-8'>
-                        <Link href="../my-resume-template.pdf" className="bg-teal-600 px-4 py-2 rounded-lg text-lg text-gray-200 font-semibold mt-3">Download CV</Link>
+                        <Link href="../my-cv.pdf" className="bg-teal-600 px-4 py-2 rounded-lg text-lg text-gray-200 font-semibold mt-3">Download CV</Link>
                         <Link href="/#contact" className="bg-gray-900 dark:bg-gray-300 dark:text-gray-900 ms-5 px-4 py-2 rounded-lg text-lg text-gray-200 font-semibold mt-3">Contact me</Link>
                     </div>
 
